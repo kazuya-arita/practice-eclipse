@@ -1,0 +1,13 @@
+package company;
+
+public class SalesEmployee extends AbsEmployee {
+	int SalesAmt;
+	
+	public SalesEmployee(int id, String name, int salesAmt) {
+		super(id, name, "");
+		this.SalesAmt = salesAmt;
+	}
+	
+	
+
+}

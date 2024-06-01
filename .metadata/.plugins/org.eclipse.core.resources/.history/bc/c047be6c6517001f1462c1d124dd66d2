@@ -1,0 +1,9 @@
+package store;
+
+public class LimitedProduct extends AbsProduct {
+	private int dayCnt;
+	
+	public LimitProduct(String name, int price, int dayCnt) {
+		super(name, price);
+	}
+}

@@ -1,0 +1,20 @@
+package driver;
+
+import store.AbsProduct;
+import store.LimitedProduct;
+import store.SpecialProduct;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		AbsProduct[] product = makeProductList();
+		System.out.println("---商品リスト---");
+	}
+	
+	public static AbsProduct[] makeProductList() {
+		new LimitedProduct("マウス", 2000, 10).
+		new SpecialProduct("特価キーボード", 3600, 4500),
+		
+	}
+
+}

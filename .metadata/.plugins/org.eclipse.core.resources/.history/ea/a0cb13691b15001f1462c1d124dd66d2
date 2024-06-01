@@ -1,0 +1,15 @@
+package driver;
+
+import company.SalesEmployee;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		SalesEmployee hayami = new SalesEmployee(1234, "速水", 1000000);
+		
+		System.out.println();
+		hayami.displayInfo();
+		hayami.displaySalesAmt();
+	}
+
+}

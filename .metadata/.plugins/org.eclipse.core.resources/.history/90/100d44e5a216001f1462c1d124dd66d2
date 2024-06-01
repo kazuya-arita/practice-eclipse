@@ -1,0 +1,11 @@
+package company;
+
+public class PlanningEmployee extends AbsEmployee {
+	int planningCnt;
+	int okCnt;
+	
+	public LogisticEmployee(int id, String name, int planningCnt, int okCnt) {
+		super(id, name, "");
+		
+	}
+}

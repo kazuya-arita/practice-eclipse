@@ -1,0 +1,16 @@
+package company;
+
+public class PlanningEmployee extends AbsEmployee {
+	int planningCnt;
+	int okCnt;
+	
+	public PlanningEmployee(int id, String name, int planningCnt, int okCnt) {
+		super(id, name, "");
+		this.planningCnt = planningCnt;
+		this.okCnt = okCnt;
+	}
+	
+	public void displayInfo() {
+		System.out.println();
+	}
+}

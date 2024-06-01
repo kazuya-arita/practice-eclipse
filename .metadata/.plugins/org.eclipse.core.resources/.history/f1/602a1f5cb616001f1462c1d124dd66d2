@@ -1,0 +1,16 @@
+package company;
+
+public class AccountingEmployee extends AbsEmployee {
+	private String workInCharge;
+	
+	public AccountingEmployee(int id, String name, String workInCharge) {
+		super(id, name, "");
+		this.workInCharge = workInCharge;
+	}
+	
+	@Override
+	
+	public void displayInfo() {
+		System.out.println();
+	}
+}

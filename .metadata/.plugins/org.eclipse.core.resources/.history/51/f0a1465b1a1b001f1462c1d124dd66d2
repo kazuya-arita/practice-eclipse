@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JavaWebEx0801">
+        <property name="context-root" value="JavaWebEx0801"/>
+        <property name="java-output-path" value="/JavaWebEx0801/build/classes"/>
+    </wb-module>
+</project-modules>

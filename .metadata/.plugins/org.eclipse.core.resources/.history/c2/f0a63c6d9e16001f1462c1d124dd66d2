@@ -1,0 +1,12 @@
+package company;
+
+public class SalesEmployee extends AbsEmployee {
+	int SalesAmt;
+	
+	public SalesEmployee(int id, String name, int salesAmt) {
+		this.id = id;
+		this.name = name;
+		this.SalesAmt = salesAmt;
+	}
+
+}

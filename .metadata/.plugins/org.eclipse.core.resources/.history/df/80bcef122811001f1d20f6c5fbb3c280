@@ -1,0 +1,28 @@
+package method;
+
+public class MaxLength {
+	
+	 String getMaxString(String[] array) {
+		String text = null;
+		int textbox = array[0].length();
+		
+		for (int i = 1; i < array.length; i++) {
+			if (textbox <= array[i].length()) {
+				textbox = array[i].length();
+				System.out.println(array[i]);
+			} 
+		}
+		return text;
+	}
+
+	public static void main(String[] args) {
+		MaxLength t = new MaxLength();
+		
+		String[] arrayList = {"あいうえお", "かき", "くけこ", "さしすせ"};
+		
+		String f = t.getMaxString(arrayList);
+		System.out.println(f);
+
+	}
+
+}

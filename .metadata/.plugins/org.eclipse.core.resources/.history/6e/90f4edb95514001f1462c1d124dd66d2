@@ -1,0 +1,14 @@
+package company;
+
+public class SalesEmployee extends Employee {
+	private int salesAmt;
+	
+	public int getSalesAmt() {
+		return salesAmt;
+	}
+	
+	public void setSalesAnt(int salesAmt) {
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package company;
+
+public  class AbsEmployee {
+	int id;
+	String name;
+	String section;
+	
+	protected AbsEmployee(int id, String name, String section) {
+		this.id = id;
+		this.name = name;
+		this.section = section;
+	}
+	
+	public void displayInfo() {
+		System.out.println();
+	}
+	
+	public void displayBasic() {
+		System.out.println(id);
+	}
+}

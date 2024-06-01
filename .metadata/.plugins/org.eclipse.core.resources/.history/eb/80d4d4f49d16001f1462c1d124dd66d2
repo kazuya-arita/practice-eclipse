@@ -1,0 +1,6 @@
+package company;
+
+public class SalesEmployee extends AbsEmployee {
+	int SalesAmt;
+
+}

@@ -1,0 +1,23 @@
+
+public class Driver {
+
+	public static void main(String[] args) {
+		System.out.println();
+		SalesEmployee.displayCompany();
+		
+		System.out.println();
+		System.out.println("インスタンス数:" + SalesEmployee.instanceCnt);
+		
+		SalesEmployee hayami = new SalesEmployee("速水", 1000000);
+		System.out.println();
+		hayami.displayInfo();
+		
+		SalesEmployee kawai = new SalesEmployee("河合", 500000);
+		System.out.println();
+		kawai.displayInfo();
+		
+		System.out.println();
+		System.out.println("インスタンス数:" + SalesEmployee.instanceCnt);
+	}
+
+}

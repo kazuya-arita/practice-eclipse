@@ -1,0 +1,8 @@
+package company;
+
+import company.AbsEmployee;
+
+public class SalesEmployee extends AbsEmployee {
+	int SalesAmt;
+
+}

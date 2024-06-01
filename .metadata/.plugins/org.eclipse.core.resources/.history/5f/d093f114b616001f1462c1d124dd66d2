@@ -1,0 +1,18 @@
+package company;
+
+public class SalesEmployee extends AbsEmployee {
+	private int SalesAmt;
+	
+	public SalesEmployee(int id, String name, int salesAmt) {
+		super(id, name, "");
+		this.SalesAmt = salesAmt;
+	}
+	
+	@Override
+	
+	public void displayInfo() {
+		System.out.println();
+	}
+	
+
+}

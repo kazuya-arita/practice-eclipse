@@ -1,0 +1,16 @@
+package company;
+
+public class LogisticEmployee extends AbsEmployee {
+	private int purchaseTotal;
+	private int deliveryTotal;
+	
+	public LogisticEmployee(int id, String name, int purchaseTotal, int deliveryTotal) {
+		super(id, name, "");
+		this.purchaseTotal = purchaseTotal;
+		this.deliveryTotal = deliveryTotal;
+	}
+	
+	public void displayInfo() {
+		System.out.println();
+	}
+}

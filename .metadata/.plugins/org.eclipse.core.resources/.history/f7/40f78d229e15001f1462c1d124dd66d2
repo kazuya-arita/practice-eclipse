@@ -1,0 +1,17 @@
+package driver;
+
+import company.Employee;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		Employee tanaka = new Employee(1000, "田中");
+		tanaka.displayInfo();
+		
+		SalesEmployee hayami = new SalesEmployee(1234, "速水", 1000000);	
+		System.out.println();
+		hayami.displayInfo();
+		
+	}
+
+}

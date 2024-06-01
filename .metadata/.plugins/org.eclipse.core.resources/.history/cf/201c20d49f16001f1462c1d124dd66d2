@@ -1,0 +1,10 @@
+package company;
+
+public class AccontingEmployee extends AbsEmployee {
+	String workInCharge;
+	
+	public AccountingEmployee(int id, String name, String workInCharge) {
+		super(id, name, "");
+		this.workInCharge = workInCharge;
+	}
+}

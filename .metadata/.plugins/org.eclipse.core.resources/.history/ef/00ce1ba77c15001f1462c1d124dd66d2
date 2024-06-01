@@ -1,0 +1,15 @@
+package driver;
+
+import store.SpecialProduct;
+
+public class Driver {
+
+	public static void main(String[] args) {
+		SpecialProduct keybord = new SpecialProduct("特価キーボード", 3600, 4500);
+		
+		keybord.display();
+		keybord.displayOrgPrice();
+
+	}
+
+}
